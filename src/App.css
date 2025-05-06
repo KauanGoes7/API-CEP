@@ -1,0 +1,70 @@
+.cep-container {
+  padding: 40px 20px; /* Aumentei o padding vertical */
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente todos os itens */
+  justify-content: center; /* Centraliza verticalmente */
+  min-height: 60vh; /* Garante espaço vertical adequado */
+}
+
+.cep-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px; /* Aumentei o espaçamento */
+  font-size: 2rem; /* Tamanho maior para o título */
+  font-weight: bold;
+  width: 100%;
+}
+
+.cep-input {
+  padding: 12px 15px; /* Padding maior para melhor toque */
+  width: 100%;
+  max-width: 400px; /* Largura máxima controlada */
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: 2px solid #ddd; /* Borda mais espessa */
+  border-radius: 8px; /* Bordas mais arredondadas */
+  box-sizing: border-box;
+  text-align: center; /* Texto centralizado no input */
+  font-size: 1.1rem;
+  transition: all 0.3s ease; /* Transição suave para efeitos */
+}
+
+.cep-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.3); /* Sombra mais suave */
+  transform: scale(1.02); /* Efeito de zoom sutil */
+}
+
+.cep-loading {
+  text-align: center;
+  color: #666;
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.cep-info-container {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 1.6;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra sutil */
+  margin-top: 20px;
+}
+
+.cep-info-container p {
+  margin: 10px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.cep-info-container strong {
+  color: #4CAF50;
+  font-weight: bold;
+}

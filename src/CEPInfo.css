@@ -1,0 +1,49 @@
+.cep-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.cep-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cep-input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.cep-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.cep-loading {
+  text-align: center;
+  color: #666;
+}
+
+.cep-info-container {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  line-height: 1.6;
+}
+
+.cep-info-container p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.cep-info-container strong {
+  color: #4CAF50;
+}
